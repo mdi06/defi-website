@@ -35,41 +35,48 @@
         <div class="showcase-text">
           <h1>Easier Deployment</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius magni
-            a consequuntur exercitationem ea eligendi ipsam reprehenderit esse
-            veritatis ducimus!
+            Deploy web apps of all kinds, from large scale enterprise APIs to
+            static websites for individuals. Fill out the form to try a demo of
+            our platform
           </p>
-          <a href="" class="btn btn-outline">Read More</a>
+          <a href="features.html" class="btn btn-outline">Read More</a>
         </div>
+
         <div class="showcase-form card">
-          <h2>Request a demo</h2>
-          <form
-            name="contact"
-            netlify-honeypot="bot-field"
-            method="POST"
-            data-netlify="true"
-            class="form-control"
-          >
-            <input type="hidden" name="form-name" value="contact" />
-            <p class="hidden">
-              <label
-                >Don’t fill this out if you’re human: <input name="bot-field"
-              /></label>
-            </p>
-            <input type="text" name="name" placeholder="Name" required />
+          <h2>Request a Demo</h2>
+          <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form> -->
+          <form>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
           </form>
-          <form class="form-control">
-            <input
-              type="text"
-              name="company"
-              placeholder="Company Name"
-              required
-            />
-          </form>
-          <form class="form-control">
-            <input type="email" name="email" placeholder="Email" required />
-          </form>
-          <input type="submit" value="Send" class="btn btn-primary" />
         </div>
       </div>
     </section>
